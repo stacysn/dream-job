@@ -10,15 +10,26 @@ class Header extends Component {
     }
   }
 
+switchToFirstStep = (event) => {
+  this.setState({isFirstStep: true})
+}
+
+switchToSecondStep = (event) => {
+  this.setState({isSecondStep: true})
+}
+
+switchToSecondStep = (event) => {
+  this.setState({isThirdStep: true})
+}
+
   render(){
-    if (!isFirstStep){
       return(
-        <div className="changeNavBars">
-          
-        </div>
+
+          <div className='start-image'>
+          </div>
       )
-    }
   }
+
 }
 
 export default Header;
