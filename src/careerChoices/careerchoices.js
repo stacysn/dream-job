@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 
 class CareerChoices extends Component {
   render(){
@@ -7,22 +7,22 @@ class CareerChoices extends Component {
       <header className="careermainbox">
         <div className="career-image">
           <div className="circle-container">
-            <div className="circle-text">
+            <div className="circle-text padding">
               <div>Web Developer!</div>
             </div>
-            <div className="circle-text">
+            <div className="circle-text padding">
               <div>Web Designer!</div>
             </div>
-            <div className="circle-text">
+            <div className="circle-text padding">
               <div>User Experience!</div>
             </div>
-            <div className="circle-text">
+            <div className="circle-text padding">
               <div>Software Engineer!</div>
             </div>
-            <div className="circle-text">
+            <div className="circle-text padding">
               <div>Product Manager!</div>
             </div>
-            <div className="circle-text">
+            <div className="circle-text padding">
               <div>Digital Marketing!</div>
             </div>
           </div>
