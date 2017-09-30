@@ -53,6 +53,9 @@
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
       border-radius: 50%;
+      opacity: .8;
+      border: 3px solid #D4AF37;
+      color: white;
   }
   .circle-text div {
       float:left;
@@ -62,4 +65,10 @@
       margin-top:-0.5em;
       text-align:center;
       color:white;
+  }
+
+  .padding {
+    padding-left: 15px;
+   padding-top: 197px;
+
   }
