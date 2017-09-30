@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './navBar/Header'
+import Header from './navBar/Header';
+import CareerChoices from './careerChoices/careerchoices';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <Header />
+        <CareerChoices />
       </div>
     );
   }
