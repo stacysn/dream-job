@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 
 class Header extends Component {
   render(){
+    if(!)
     return(
-      <div>
-        <b>"Hello World! "</b>
+      <div className="home">
+        <h1>Dream Job</h1>
       </div>
     )
   }
