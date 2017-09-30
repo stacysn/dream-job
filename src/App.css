@@ -119,3 +119,12 @@ padding-top: 123px;
    color: black;
    opacity: 1;
  }
+
+ .computer-background {
+   background: url(http://res.cloudinary.com/natasha-price/image/upload/v1506805710/scene_1_xtpyuf.png)
+   no-repeat center;
+   height: 700px;
+   width: 100%;
+   z-index: 5;
+   background-size: cover;
+ }
