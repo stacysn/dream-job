@@ -34,46 +34,98 @@
   width: 100%;
   z-index: 5;
   background-size: cover;
+  opacity: .7;
+  }
+
+  .webdev {
+    background: url(http://res.cloudinary.com/carlyhuh/image/upload/v1506809136/Mentor_siw0g9.gif)
+    no-repeat center;
+    background-size: 45%;
+  }
+
+  .mentor1 {
+    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_7_nbukxl.png)
+    no-repeat center;
+    background-size: 45%;
+  }
+
+  .mentor2 {
+    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_5_xoesuh.png)
+    no-repeat center;
+    background-size: 45%;
+
+  }
+
+  .mentor3 {
+    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_4_gfzaeg.png)
+    no-repeat center;
+    background-size: 45%;
+    padding-top: 266px;
+  }
+
+  .mentor4 {
+    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_3_d7tpph.png)
+    no-repeat center;
+    background-size: 45%;
+  }
+
+  .mentor5 {
+    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_2_r7m9fr.png)
+    no-repeat center;
+    background-size: 45%;
   }
 
 .circle-container {
   display: flex;
+  margin-top: -19px;
 
 }
   .circle-text {
       width:15%;
   }
   .circle-text:after {
-      content: "";
-      display: block;
+    content: "";
+      display: flex;
       width: 100%;
-      height:0;
+      height: 0;
       padding-bottom: 100%;
       background: #4679BD;
-      -moz-border-radius: 50%;
-      -webkit-border-radius: 50%;
       border-radius: 50%;
-      opacity: .8;
+      opacity: .4;
       border: 3px solid #D4AF37;
       color: white;
+      z-index: 1;
   }
-  .circle-text div {
-      float:left;
-      width:100%;
-      padding-top:50%;
-      line-height:1em;
-      margin-top:-0.5em;
-      text-align:center;
-      color:white;
-  }
-
-  .padding {
-    padding-left: 15px;
-   padding-top: 197px;
-
+  .circle-text{
+    float:left;
+    width:100%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:black;
+    opacity: 1;
   }
 
-.profile-page {
-  height: 50%;
-  width: 50%;
+  .bottom-circles {
+    padding-left: 16px;
+    padding-top: 266px;
+  }
+
+.top-circles {
+  padding-left: 18px;
+padding-top: 123px;
 }
+
+ .inside-text {
+   color: black;
+   opacity: 1;
+ }
+
+ .computer-background {
+   background: url(http://res.cloudinary.com/natasha-price/image/upload/v1506805710/scene_1_xtpyuf.png)
+   no-repeat center;
+   height: 700px;
+   width: 100%;
+   z-index: 5;
+   background-size: cover;
+ }

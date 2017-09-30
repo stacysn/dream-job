@@ -7,24 +7,31 @@ class CareerChoices extends Component {
       <header className="careermainbox">
         <div className="career-image">
           <div className="circle-container">
-            <div className="circle-text padding">
-              <div>Web Developer!</div>
+
+            <div className="webdev circle-text  padding top-circles">
+              <div className="inside-text">Web Developer!</div>
             </div>
-            <div className="circle-text padding">
-              <div>Web Designer!</div>
+
+            <div className="mentor1 circle-text padding top-circles">
+              <div className="inside-text">Web Designer!</div>
             </div>
-            <div className="circle-text padding">
-              <div>User Experience!</div>
+
+            <div className="mentor2 circle-text padding top-circles">
+              <div className="inside-text">User Experience!</div>
             </div>
-            <div className="circle-text padding">
-              <div>Software Engineer!</div>
+
+            <div className="mentor3 circle-text padding top-circles">
+              <div className="inside-text">Software Engineer!</div>
             </div>
-            <div className="circle-text padding">
-              <div>Product Manager!</div>
+
+            <div className="mentor4 circle-text padding top-circles">
+              <div className="inside-text">Product Manager!</div>
             </div>
-            <div className="circle-text padding">
-              <div>Digital Marketing!</div>
+
+            <div className="mentor5 circle-text padding top-circles">
+              <div className="inside-text">Digital Marketing!</div>
             </div>
+
           </div>
         </div>
 
