@@ -7,7 +7,7 @@ class CareerChoices extends Component {
       <header className="careermainbox">
         <div className="career-image">
           <div className="circle-container">
-            <div className="circle-text padding">
+            <div className="circle-text webdev padding">
               <div>Web Developer!</div>
             </div>
             <div className="circle-text padding">

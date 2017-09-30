@@ -34,6 +34,7 @@
   width: 100%;
   z-index: 5;
   background-size: cover;
+
   }
 
 .circle-container {
@@ -68,7 +69,12 @@
   }
 
   .padding {
-    padding-left: 15px;
+   padding-left: 15px;
    padding-top: 197px;
+  }
 
+  .webdev {
+    background: url(http://res.cloudinary.com/carlyhuh/image/upload/v1506809136/Mentor_siw0g9.gif)
+    no-repeat center;
+    background-size: 25%;
   }
