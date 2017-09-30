@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import CareerChoices from './careerChoices/careerchoices'
 import Header from './navBar/Header'
+import SecondPage from './secondPage/secondPage'
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
           <h1 className="App-title">Dream Job</h1>
         </header>
         <Header />
-        <CareerChoices />
+        <SecondPage />
       </div>
     );
   }
