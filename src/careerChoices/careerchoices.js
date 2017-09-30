@@ -20,15 +20,15 @@ class CareerChoices extends Component {
               <div className="inside-text">User Experience!</div>
             </div>
 
-            <div className="mentor3 circle-text padding bottom-circles">
+            <div className="mentor3 circle-text padding top-circles">
               <div className="inside-text">Software Engineer!</div>
             </div>
 
-            <div className="mentor4 circle-text padding bottom-circles">
+            <div className="mentor4 circle-text padding top-circles">
               <div className="inside-text">Product Manager!</div>
             </div>
 
-            <div className="mentor5 circle-text padding bottom-circles">
+            <div className="mentor5 circle-text padding top-circles">
               <div className="inside-text">Digital Marketing!</div>
             </div>
 
