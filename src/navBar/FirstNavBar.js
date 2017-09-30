@@ -4,8 +4,10 @@ class FirstNavBar extends Component {
   render(){
     return (
       <div className='firstStep'>
-        <img src="../images/star.png"/>
+        <img src="../images/StatusBar1.png"/>
       </div>
     )
   }
 }
+
+export default FirstNavBar;
