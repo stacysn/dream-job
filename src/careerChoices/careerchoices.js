@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
-
 class CareerChoices extends Component {
+  constructor(props){
+    super(props)
+  }
   render(){
     return(
       <header className="careermainbox">
@@ -9,7 +11,7 @@ class CareerChoices extends Component {
           <div className="circle-container">
 
             <div className="webdev circle-text  padding top-circles">
-              <div className="inside-text">Web Developer!</div>
+                <a className="waves-effect waves-light btn pink" onClick={this.props.switchToFirstStep}>Web Dev button!</a>
             </div>
 
             <div className="mentor1 circle-text padding top-circles">
