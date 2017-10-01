@@ -10,28 +10,23 @@ class CareerChoices extends Component {
         <div className="career-image">
           <div className="circle-container">
 
-            <div className="webdev circle-text  padding top-circles">
-                <a className="waves-effect waves-light btn pink" onClick={this.props.switchToFirstStep}>Web Dev button!</a>
+            <div className="mentor1">
+                <a className="waves-effect waves-light btn pink button" onClick={this.props.switchToFirstStep}>Web Dev button!</a>
             </div>
 
-            <div className="mentor1 circle-text padding top-circles">
-              <div className="inside-text">Web Designer!</div>
+            <div className="mentor2 ">
             </div>
 
-            <div className="mentor2 circle-text padding top-circles">
-              <div className="inside-text">User Experience!</div>
+            <div className="mentor3">
             </div>
 
-            <div className="mentor3 circle-text padding top-circles">
-              <div className="inside-text">Software Engineer!</div>
+            <div className="mentor4">
             </div>
 
-            <div className="mentor4 circle-text padding top-circles">
-              <div className="inside-text">Product Manager!</div>
+            <div className="mentor5">
             </div>
 
-            <div className="mentor5 circle-text padding top-circles">
-              <div className="inside-text">Digital Marketing!</div>
+            <div className="mentor6">
             </div>
 
           </div>
@@ -43,3 +38,16 @@ class CareerChoices extends Component {
 }
 
 export default CareerChoices;
+
+
+// <div className="mentor4 circle-text padding top-circles">
+//   <div className="inside-text">Software Engineer!</div>
+// </div>
+//
+// <div className="mentor5 circle-text padding top-circles">
+//   <div className="inside-text">Product Manager!</div>
+// </div>
+//
+// <div className="mentor6 circle-text padding top-circles">
+//   <div className="inside-text">Digital Marketing!</div>
+// </div>

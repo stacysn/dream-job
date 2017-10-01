@@ -30,7 +30,7 @@
 .career-image {
   background: url(http://res.cloudinary.com/unravled/image/upload/v1506809350/6756eb948ad65a60a8182eeaa94eef0d_no1mdp.jpg)
   no-repeat center;
-  height: 700px;
+  height: 1000px;
   width: 100%;
   z-index: 5;
   background-size: cover;
@@ -47,83 +47,56 @@
   }
 
   .mentor1 {
-    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_7_nbukxl.png)
+    background: url(http://res.cloudinary.com/carlyhuh/image/upload/v1506815509/WebDev_kunfax.gif)
     no-repeat center;
     background-size: 45%;
+    height: 500px;
+    width: 500px;
+    flex-direction: row;
   }
 
   .mentor2 {
-    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_5_xoesuh.png)
-    no-repeat center;
-    background-size: 45%;
+    background: url(http://res.cloudinary.com/carlyhuh/image/upload/v1506816244/Mentor2_uyjbbq.png
+)
+  no-repeat center;
+  background-size: 45%;
+  height: 500px;
+  width: 500px;
+  flex-direction: row;
 
-  }
+}
 
-  .mentor3 {
-    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_4_gfzaeg.png)
-    no-repeat center;
-    background-size: 45%;
-    padding-top: 266px;
-  }
+.mentor3 {
+  background: url(http://res.cloudinary.com/carlyhuh/image/upload/v1506816243/Mentor_3_kznwe4.png)
+  no-repeat center;
+  background-size: 45%;
+  height: 500px;
+  width: 500px;
+  flex-direction: row;
+}
 
-  .mentor4 {
-    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_3_d7tpph.png)
-    no-repeat center;
-    background-size: 45%;
-  }
+.mentor4 {
+  background: url(http://res.cloudinary.com/carlyhuh/image/upload/v1506816244/Mentor_4_bpw8fb.png)
+  no-repeat center;
+  background-size: 45%;
+}
 
-  .mentor5 {
-    background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_2_r7m9fr.png)
-    no-repeat center;
-    background-size: 45%;
-  }
+.mentor5 {
+  background: url(http://res.cloudinary.com/anademag/image/upload/v1506809488/Mentor_2_r7m9fr.png)
+  no-repeat center;
+  background-size: 45%;
+}
 
 .circle-container {
   display: flex;
   margin-top: -19px;
 
 }
-.circle-text {
-  width:15%;
-}
-.circle-text:after {
-  content: "";
-  display: flex;
-  width: 100%;
-  height: 0;
-  padding-bottom: 100%;
-  background: #4679BD;
-  border-radius: 50%;
-  opacity: .4;
-  border: 3px solid #D4AF37;
-  color: white;
-  z-index: 1;
-}
 
-.circle-text{
-  float:left;
-  width:100%;
-  line-height:1em;
-  margin-top:-0.5em;
-  text-align:center;
-  color:black;
-  opacity: 1;
-}
 
-.bottom-circles {
-  padding-left: 16px;
-  padding-top: 266px;
-}
 
-.top-circles {
-  padding-left: 18px;
-padding-top: 123px;
-}
 
- .inside-text {
-   color: black;
-   opacity: 1;
- }
+
 
  .computer-background {
    background: url(http://res.cloudinary.com/natasha-price/image/upload/v1506816123/Edith_bxxtj1.gif)
