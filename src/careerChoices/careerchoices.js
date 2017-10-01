@@ -11,7 +11,9 @@ class CareerChoices extends Component {
           <div className="circle-container">
 
             <div className="mentor1">
+              <div className='button1'>
                 <a className="waves-effect waves-light btn pink button" onClick={this.props.switchToFirstStep}>Web Dev button!</a>
+                </div>
             </div>
 
             <div className="mentor2 ">
