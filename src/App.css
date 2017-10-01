@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #222;
-  height: 80px;
+  height: 102px;
   padding: 20px;
   color: white;
 }
@@ -110,4 +110,9 @@
    z-index: 5;
    background-size: cover;
    position: absolute;*/
+ }
+
+ .navBar-images {
+   position: relative;
+   top: -50px;
  }
