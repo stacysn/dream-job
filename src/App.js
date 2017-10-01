@@ -12,7 +12,7 @@ class App extends Component {
           <h1 className="App-title">Dream Job</h1>
         </header>
         <Header />
-        <SecondPage />
+        <CareerChoices />
       </div>
     );
   }
