@@ -5,7 +5,6 @@ class SecondPage extends Component {
     return(
       <header>
         <div className="computer-background">
-         <div className="webdev"> </div>
         </div>
       </header>
     )

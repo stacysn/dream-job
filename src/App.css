@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 80px;
   padding: 20px;
   color: white;
 }
@@ -126,16 +126,12 @@ padding-top: 123px;
  }
 
  .computer-background {
-   background: url(http://res.cloudinary.com/natasha-price/image/upload/v1506805710/scene_1_xtpyuf.png)
+   background: url(http://res.cloudinary.com/natasha-price/image/upload/v1506816123/Edith_bxxtj1.gif)
    no-repeat center;
-   height: 700px;
+     background-size: cover;
+   /*height: 700px;
    width: 100%;
    z-index: 5;
    background-size: cover;
- }
-
- .big-mentor {
-   background: url(http://res.cloudinary.com/carlyhuh/image/upload/v1506809136/Mentor_siw0g9.gif)
-   no-repeat center;
-   background-size: 45%;
+   position: absolute;*/
  }
