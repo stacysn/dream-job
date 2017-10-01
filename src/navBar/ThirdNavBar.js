@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 
-class SecondNavBar extends Component {
+class ThirdNavBar extends Component {
     render(){
       return (
         <div className='App-header center'>
           <div className='App-title'>Dream Job</div>
-          <div className='secondStep left'>
-            <img src='../images/StatusBar2.png'/>
+          <div className='thirdStep left'>
+            <img src='../images/StatusBar3.png'/>
           </div>
 
           <div className='profile-page right'>
@@ -20,4 +20,4 @@ class SecondNavBar extends Component {
 
 }
 
-export default SecondNavBar;
+export default ThirdNavBar;
