@@ -35,6 +35,7 @@
   z-index: 5;
   background-size: cover;
   opacity: .7;
+      margin-top: 19px;
   }
 
   .webdev {
@@ -94,7 +95,9 @@
 }
 
 
-
+.button1 {
+  margin-top: 370px;
+}
 
 
 
