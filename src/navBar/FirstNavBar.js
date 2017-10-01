@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
-
+import SecondPage from '../secondPage/secondPage'
 
 
 class FirstNavBar extends Component {
@@ -18,6 +18,7 @@ class FirstNavBar extends Component {
               <img src='../images/profile-pic.png' height='50px'/>
             </div>
           </div>
+          <SecondPage />
         </div>
       )
     }
